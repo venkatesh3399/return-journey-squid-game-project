@@ -1,0 +1,49 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+}
+
+.green-light {
+  color: green;
+}
+
+.red-light {
+  color: red;
+  margin-right: 7px;
+}
+.default-color {
+  color: #ffffff;
+}

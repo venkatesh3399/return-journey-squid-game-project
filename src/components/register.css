@@ -1,0 +1,30 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  font-family: sans-serif;
+}
+
+.content-heading {
+  color: coral;
+}
+
+.labels {
+  width: 60px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.inputs {
+  margin-bottom: 20px;
+  margin-left: 5px;
+  height: 25px;
+}
+
+button {
+  background-color: blue;
+  color: #ffffff;
+  border: 0px;
+  padding: 12px;
+  border-radius: 8px;
+}
